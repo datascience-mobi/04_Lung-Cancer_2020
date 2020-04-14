@@ -5,6 +5,8 @@ Project X: Aberrant expression in metastatic lung cancer
 
 -   [Introduction](#introduction)
 -   [Objectives](#objectives)
+    - [Exploratory analysis](#exploratory-analysis)
+    - [Specific analysis](#specific-analysis)
 -   [Description of data set](#description-of-data-set)
 -   [Literature](#literature)
 -   [How to structure your project](#how-to-structure-your-project)
@@ -93,16 +95,17 @@ such as PCA, k-means, t-SNE or UMAP are among the most common.
 transcriptional heterogeneity in the data set?
 
 You can find metadata of the samples in the original study supplementary
-material (cf. [Literature](#literature) section).
+material (cf. [Literature](#literature) section). This table is also provided
+as a plain text file along with the expression data of the project.
 
-### Definite analysis
+### Specific analysis
 
 Once you are familiar with the data, you can then address more specific
-questions. A good place to start with is by performing a differential
-expression analysis. This allows to extract which genes are significantly up-
-or down-regulated in a given comparison, for instance, cancer vs. healthy (in
-general or subgroup(s) you may have found interesting in the exploratory
-analyses).
+questions. First, choose a subtype of lung cancer of your interest to study in
+further detail. Once chosen, a good place to start your specific analysis is by
+performing a differential expression analysis. This allows you to extract which
+genes are significantly up- or down-regulated in a given comparison, for
+instance, cancer subtype vs. healthy.
 
 - Perform a differential expression analysis and assess the significance using
 t-test (one test per each gene). Samples of the same group can be considered
@@ -116,7 +119,7 @@ log-values:
 
 > log(FC) = log(X/Y) = log(X) - log(Y)
 
-Once the significant changes are obtained, you can extract molecular or
+Once the significant changes are obtained, you may extract molecular or
 functional signatures to identify relevant processes (e.g. signaling pathways)
 from the data. One common approach is the use of enrichment methods, like Gene
 Set Enrichment Analysis (GSEA).
@@ -124,12 +127,12 @@ Set Enrichment Analysis (GSEA).
 - Extract relevant signatures from the results of the differential expression
 of your contrast(s) of interest.
 
-You can enforce or assess your results by contrasting with the literature.
+You can enforce or assess your results by contrasting them with the literature.
 
 With your previous results you may have identified some genes or gene sets of
-interest in your comparisons. You can then try to fit a linear model of these
-changes for instance in increasing tumor stages or other covariates you find
-interesting.
+interest in your comparison. You can then try to fit a linear model of these
+changes in increasing tumor stages or other covariates you find interesting
+like metastatic and non-metastatic tumors.
 
 Description of data set
 -----------------------
@@ -150,9 +153,6 @@ Tumor samples come from different subtypes of lung cancer and stages.
 | Small cell carcinoma | SCC | 21 |
 | Other histology | Other | 7 |
 | Total |  | 330 |
-
-It will be provided to the students as a table with gene names instead of probe
-identifiers as well as the sample meta data table.
 
 Literature
 ----------
