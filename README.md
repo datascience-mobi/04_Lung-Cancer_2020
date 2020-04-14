@@ -5,7 +5,7 @@ Project X: Aberrant expression in metastatic lung cancer
 
 -   [Introduction](#introduction)
 -   [Objectives](#objectives)
--   [Description of dataset](#description-of-dataset)
+-   [Description of data set](#description-of-data-set)
 -   [Literature](#literature)
 -   [How to structure your project](#how-to-structure-your-project)
     -   [Project proposal](#project-proposal)
@@ -26,7 +26,7 @@ Introduction
 
 Cancer is a generic term for a heterogeneous group of diseases that arise in different parts of the body. Cancer stems from genetic alterations that transform normal cells into malignant cells. These malignant cells are characterized by an uncontrolled growth and resistance to apoptosis (programmed cell death). This malignant behavior is mainly achieved through genetic alterations that affect the activity and wiring of many molecular mechanisms like signaling and metabolic pathways. Therefore cancer cells hijack many cellular processes enabling them to proliferate uncontrollably, avoid apoptosis and/or immune response, migrate to other tissues (metastasis) or even obtain drug resistance. Moreover, large-scale studies from international cancer consortia have described that patients' tumors acquire this malignancy through diverse individual molecular alterations. In other words, individual cancers are different each other.
 
-Lung cancer is one of the most common cancer types in the world and with high mortality rates. Many studies have been already published showing potential targets and already approved drugs are being used to treat this disease. Nevertheless, due to the inherent heterogeneity of cancer and patients, finding an easy way to characterize potential response or resistance to these treatments is key to counteract the malignancy. This is especially true in patients with very agressive tumors, where time is key to maximize a positive outcome. To tackle this problems, generating and analyzing comprehensive biological data has shown to be the best approach.
+Lung cancer is one of the most common cancer types in the world and with high mortality rates. Many studies have been already published showing potential targets and already approved drugs are being used to treat this disease. Nevertheless, due to the inherent heterogeneity of cancer and patients, finding an easy way to characterize potential response or resistance to these treatments is key to counteract the malignancy. This is especially true in patients with very aggressive tumors, where time is key to maximize a positive outcome. To tackle this problems, generating and analyzing comprehensive biological data has shown to be the best approach.
 
 Objectives
 ----------
@@ -47,7 +47,7 @@ First, familiarize and explore the data by reviewing literature and performing s
 
 > Are the values raw gene counts, intensities? Are they in logarithmic scale?
 
-- Assess wether if data needs to be normalized or if there is any experimental bias (i.e. batch effect) across samples that should be addressed.
+- Assess whether if data needs to be normalized or if there is any experimental bias (i.e. batch effect) across samples that should be addressed.
 
 > Do they look already normalized?
 > Could you identify number of batches from the data if any?
@@ -78,8 +78,8 @@ You can enforce or assess your results by contrasting with the literature.
 
 With your previous results you may have identified some genes or gene sets of interest in your comparisons. You can then try to fit a linear model of these changes for instance in increasing tumor stages or other covariates you find interesting.
 
-Description of dataset
-----------------------
+Description of data set
+-----------------------
 
 Data source in GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30219
 
@@ -124,18 +124,18 @@ How to structure your project
 You first task will be to define a **project proposal**, which should
 include
 
--   summary of literature on this dataset
+-   summary of literature on this data set
 -   questions you want to address
 -   approximate timetable
 
 You will present this project proposal together with a literature review
-on the subject 3 week after the begining of the semester (10 minute
+on the subject 3 week after the beginning of the semester (10 minute
 presentation + 5 minutes discussion).
 
 ### Project must-have
 
 You project **MUST** contain the following elements:
-- **descriptive statistics** about the datasets
+- **descriptive statistics** about the data sets
 - **graphical representations**
 - **dimension reduction** analysis (PCA, clustering or k-means)
 - **statistical tests** (t-test, proportion tests etc)
