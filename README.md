@@ -153,7 +153,8 @@ cancer subtype.
 can find the name of the sample as provided in the expression_dataframe.csv
 file, the gender, age and status of the patient, the TNM stage of the different
 tumors (see [Literature](#literature) for more information), if the tumor has
-relapsed and the follow-up time of the patients (in months).
+relapsed and the follow-up time of the patients (in months), smoking habits and
+if the patient has received chemo-/radiotherapy.
 
 Data set comprises 293 lung tumor samples and 14 non-tumoral lung samples.
 Tumor samples come from different subtypes of lung cancer and stages.
