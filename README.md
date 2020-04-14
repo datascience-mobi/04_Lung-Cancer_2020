@@ -1,4 +1,4 @@
-Project X: Aberrant expression in metastatic lung cancer
+Project 4: Aberrant expression in metastatic lung cancer
 ========================================================
 
 ### *Project overview and guidelines*
