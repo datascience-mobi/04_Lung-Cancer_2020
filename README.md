@@ -139,6 +139,11 @@ Description of data set
 
 Data source in GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30219
 
+The expression data set and the metadata of the samples is provided in the
+[data](data/) folder of the repository. Please use this for your analyses as
+the probe identifiers have been already translated to gene names and the
+samples are named according to the cancer subclass instead of GEO identifiers.
+
 Data set comprises 293 lung tumor samples and 14 non-tumoral lung samples.
 Tumor samples come from different subtypes of lung cancer and stages.
 
