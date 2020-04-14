@@ -94,9 +94,10 @@ such as PCA, k-means, t-SNE or UMAP are among the most common.
 > Is there any co-variate that correlates with the main aspects of
 transcriptional heterogeneity in the data set?
 
-You can find metadata of the samples in the original study supplementary
-material (cf. [Literature](#literature) section). This table is also provided
-as a plain text file along with the expression data of the project.
+For this part of the analysis, you can use the metadata of the samples from
+the original study. This table is provided as a comma-separated file (csv)
+file along with the expression data of the project (cf.
+[Description of the data set](#description-of-data-set) section).
 
 ### Specific analysis
 
@@ -143,6 +144,16 @@ The expression data set and the metadata of the samples is provided in the
 [data](data/) folder of the repository. Please use this for your analyses as
 the probe identifiers have been already translated to gene names and the
 samples are named according to the cancer subclass instead of GEO identifiers.
+
+- [expression_dataframe.csv](data/expression_dataframe.csv): Here you will
+find the expression data of the different samples and transcripts. Rows are
+the gene names and columns are the different samples according to the lung
+cancer subtype.
+- [sample_infos.csv](data/sample_infos.csv): The metadata of the samples. You
+can find the name of the sample as provided in the expression_dataframe.csv
+file, the gender, age and status of the patient, the TNM stage of the different
+tumors (see [Literature](#literature) for more information), if the tumor has
+relapsed and the follow-up time of the patients (in months).
 
 Data set comprises 293 lung tumor samples and 14 non-tumoral lung samples.
 Tumor samples come from different subtypes of lung cancer and stages.
