@@ -161,7 +161,7 @@ Tumor samples come from different subtypes of lung cancer and stages.
 
 | Subclass | Abbreviation | Samples |
 |---|---|---|
-| Non-tumoral lung | NTL | 37 |
+| Non-tumoral lung | NTL | 14 |
 | Adenocarcinoma | ADC | 85 |
 | Squamous Cell Tumours | SQC | 61 |
 | Large cell neuroendocrine | LCNE | 56 |
@@ -169,7 +169,7 @@ Tumor samples come from different subtypes of lung cancer and stages.
 | Carcinoid tumours | CARCI | 24 |
 | Small cell carcinoma | SCC | 21 |
 | Other histology | Other | 7 |
-| Total |  | 330 |
+| Total |  | 307 |
 
 Literature
 ----------
