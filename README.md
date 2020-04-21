@@ -21,7 +21,7 @@ Supervisors:
     ([aurelien.dugourd@bioquant.uni-heidelberg.de](mailto:aurelien.dugourd@bioquant.uni-heidelberg.de))
 
 Tutor:
-- XXX ([XXX@YYY.ZZ](mailto:XXX@YYY.ZZ))
+- Alvaro Mendoza ([A.Mendoza@stud.uni-heidelberg.de](mailto:A.Mendoza@stud.uni-heidelberg.de))
 
 Introduction
 ------------
