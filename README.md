@@ -21,7 +21,7 @@ Supervisors:
     ([aurelien.dugourd@bioquant.uni-heidelberg.de](mailto:aurelien.dugourd@bioquant.uni-heidelberg.de))
 
 Tutor:
-- XXX ([XXX@YYY.ZZ](mailto:XXX@YYY.ZZ))
+- Alvaro Mendoza ([A.Mendoza@stud.uni-heidelberg.de](mailto:A.Mendoza@stud.uni-heidelberg.de))
 
 Introduction
 ------------
@@ -103,7 +103,17 @@ file along with the expression data of the project (cf.
 
 Once you are familiar with the data, you can then address more specific
 questions. First, choose a subtype of lung cancer of your interest to study in
-further detail. Once chosen, a good place to start your specific analysis is by
+further detail. Each group should choose a different subtype out of the
+following:
+
+- Adenocarcinoma
+- Squamous cell tumors
+- Large cell neuroendocrine
+- Basaloid tumors
+- Carcinoid tumors
+- Small cell carcinoma
+
+Once chosen, a good place to start your specific analysis is by
 performing a differential expression analysis. This allows you to extract which
 genes are significantly up- or down-regulated in a given comparison, for
 instance, cancer subtype vs. healthy.
@@ -161,15 +171,15 @@ Tumor samples come from different subtypes of lung cancer and stages.
 
 | Subclass | Abbreviation | Samples |
 |---|---|---|
-| Non-tumoral lung | NTL | 37 |
+| Non-tumoral lung | NTL | 14 |
 | Adenocarcinoma | ADC | 85 |
-| Squamous Cell Tumours | SQC | 61 |
+| Squamous cell tumours | SQC | 61 |
 | Large cell neuroendocrine | LCNE | 56 |
 | Basaloid tumours | BAS | 39 |
 | Carcinoid tumours | CARCI | 24 |
 | Small cell carcinoma | SCC | 21 |
 | Other histology | Other | 7 |
-| Total |  | 330 |
+| Total |  | 307 |
 
 Literature
 ----------
